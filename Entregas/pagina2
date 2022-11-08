@@ -1,0 +1,82 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<head>
+    <link rel="stylesheet" href="./styleE2" />
+    <title>Ununciado de la página web</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="Título">TÍTULO DE LA PAGINA WEB</h1>
+        <!-- PRIMER MENÚ CON EL FORMATO DE LA CLASE MENÚ 1-->
+
+        <ul class="menu1">
+            <li><a href="https://es.wikipedia.org/wiki/God_of_War_(franquicia)">Enlace1</a></li>
+            <li><a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Test_your_skills:_Advanced_HTML_text">Enlace2</a></li>
+            <li><a href="https://www.um.es/docencia/barzana/DAWEB/2017-18/daweb-tema-12-css-avanzado.html">Enlace3</a></li>
+            <li><a href="https://open-bootcamp.com/cursos/java-avanzado">Enlace4</a></li>
+        </ul>
+
+    </header>
+    <!-- PARTE PRINCIPAL DE LA PÁGINA WEB DONDE SE VEN LAS IMÁGENES-->
+    <section class="seccion1">
+        <h2>SECCIÓN 1 H2</h2>
+        <div class="seccion1-hijo">
+        <div class="imagen1">
+            <div>
+                <img src="https://th.bing.com/th/id/R.efa171a4b6dc110130333e2c79585562?rik=KrKvvNj28lEjlA&pid=ImgRaw&r=0"
+                    alt="Una catarata con un arcoiris">
+            </div>
+            <p>Primer texto con formato de la clase seccion1-hijo</p>
+            <h3>Mérito a</h3>
+        </div>
+
+        <div>
+            <div class="imagen2">
+                <img src="https://th.bing.com/th/id/R.c285d6fcc3e420d78cb84db92e11585d?rik=pB5GK%2bqJlAma%2fw&riu=http%3a%2f%2fposadasantamargarita.com.ve%2fsitio%2fimages%2f----------------------------------------------1-Paisaje-fsico_1.jpg&ehk=R8c2aTP6O%2beufkJGYrTucvWYeOjbVhX%2btRjPohEHcSs%3d&risl=&pid=ImgRaw&r=0"
+                    alt="lago en la montaña">
+            </div>
+            <p>Texto con el formato de seccion1</p>
+            <h3>Mérito a</h3>
+        </div>
+
+        <div>
+            <div class="imagen3">
+                <img src="https://th.bing.com/th/id/R.13de23b90c93e1f6ce8775cff015b49f?rik=Cy5fuI4Ityn%2btQ&pid=ImgRaw&r=0"
+                    alt="APaisaje gallego">
+            </div>
+            <p> Texto alternativo sin nada especial</p>
+            <h3>Mérito a</h3>
+        </div>
+    </div>
+    </section>
+
+    <section class="seccion2">
+        <h2>SECCIÓN 2 H2</h2>
+
+        <!-- <div class="caja1">
+    <img src="https://images.unsplash.com/photo-1661864608376-b889c3c707f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" alt="">
+</div>
+<div class="caja2">
+    <img src="https://images.unsplash.com/photo-1661790402983-eecd93f80f99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" alt="">
+</div>
+<div class="caja3">
+    <img src="https://images.unsplash.com/photo-1661866143866-7c4db1f004ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" alt="">
+</div> -->
+    </section>
+    <section>
+        <!--OTRO MENÚ CON FORMATO DISTINTO-->
+        <div class="menu2">
+            <ul>
+                <li>Link TOP</li>
+                <li>Sección 1</li>
+                <li>Sección 2</li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>

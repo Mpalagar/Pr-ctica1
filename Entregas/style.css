@@ -1,0 +1,72 @@
+.Título {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(82, 16, 132);
+    color: rgb(18, 17, 17);
+}
+
+/*.imagen1 {
+}
+
+.imagen2 {
+    width: 100px;
+    height: 100px;
+    justify-content: flex-start;
+}
+
+.imagen3 {
+
+}
+*/
+
+.menu1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: rgb(122, 169, 13);
+}
+
+.seccion2 {
+    display: none;
+}
+.seccion1{
+
+}
+.seccion1-hijo > div{
+    width: 30%;
+
+}
+.seccion1-hijo img{
+    width: 200px;
+    height: 150px;
+}
+.seccion1-hijo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (min-width:640px) {
+    .menu2 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .menu1 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .seccion2 {
+        display: flex;
+    }
+    
+}
